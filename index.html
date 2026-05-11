@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-index">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v3.0.2">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<title>Nuestra placa robótica se comunica con el mundo</title>
+<meta name="description" content="REA de la asignatura de Computación y Robótica para 1º de ESO sobre lo que son los microcontroladores y como programarlos">
+<script>document.querySelector("html").classList.add("js");</script><script src="libs/jquery/jquery.min.js"> </script><script src="libs/common_i18n.js"> </script><script src="libs/common.js"> </script><script src="libs/exe_export.js"> </script><script src="libs/bootstrap/bootstrap.bundle.min.js"> </script><script src="libs/exe_effects/exe_effects.js"> </script><link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="libs/exe_effects/exe_effects.css">
+<script src="idevices/udl-content/udl-content.js"> </script><link rel="stylesheet" href="idevices/udl-content/udl-content.css">
+<link rel="stylesheet" href="content/css/base.css">
+<script src="theme/style.js"> </script><link rel="stylesheet" href="theme/style.css">
+<link rel="icon" type="image/x-icon" href="libs/favicon.ico">
+</head>
+<body class="exe-export exe-web-site" lang="es">
+<script>document.body.className+=" js"</script><div class="exe-content exe-export pre-js siteNav-hidden"> <nav id="siteNav"> <ul> <li class="active"> <a href="index.html" class="active main-node no-ch">Nuestra placa robótica se comunica con el mundo</a>
+</li>
+<li> <a href="html/1-que-vamos-a-hacer.html" class="no-ch">1. ¿Qué vamos a hacer?</a>
+</li>
+<li> <a href="html/2-activamos-nuestros-circuitos.html" class="no-ch">2. Activamos nuestros circuitos</a>
+</li>
+<li> <a href="html/3-nuestra-placa-robotica.html" class="daddy">3. Nuestra placa robótica</a><ul class="other-section"> <li> <a href="html/3-1-exploramos-la-placa.html" class="no-ch">3.1. Exploramos la placa</a>
+</li>
+<li> <a href="html/3-2-el-cerebro-de-nuestro-robot.html" class="daddy">3.2. El cerebro de nuestro robot</a><ul class="other-section"> <li> <a href="html/3-2-1-que-has-aprendido-sobre-los-microcontroladores.html" class="no-ch">3.2.1. Qué has aprendido sobre los microcontroladores</a>
+</li>
+</ul>
+</li>
+<li> <a href="html/3-3-entradas-procesamiento-y-salidas.html" class="no-ch">3.3. Entradas, procesamiento y salidas</a>
+</li>
+</ul>
+</li>
+<li> <a href="html/4-el-entorno-de-programacion.html" class="daddy">4. El entorno de programación</a><ul class="other-section"> <li> <a href="html/4-1-hola-mundo.html" class="no-ch">4.1. ¡Hola mundo!</a>
+</li>
+</ul>
+</li>
+<li> <a href="html/5-nos-ponemos-manos-a-la-obra.html" class="no-ch">5. Nos ponemos manos a la obra</a>
+</li>
+<li> <a href="html/6-presentamos-nuestro-trabajo.html" class="no-ch">6. Presentamos nuestro trabajo</a>
+</li>
+<li> <a href="html/7-sacamos-conclusiones.html" class="no-ch">7. Sacamos conclusiones</a>
+</li>
+<li> <a href="html/creditos.html" class="no-ch">Créditos</a>
+</li>
+</ul></nav><main id="20260511162729NCARDI" class="page"> <header id="header-20260511162729NCARDI" class="main-header"> <p class="page-counter"> <span class="page-counter-label">Página </span><span class="page-counter-content"> <strong class="page-counter-current-page">1</strong><span class="page-counter-sep">/</span><strong class="page-counter-total">14</strong></span></p>
+<div class="package-header"><h1 class="package-title">Nuestra placa robótica se comunica con el mundo</h1></div>
+<div class="page-header"><h2 class="page-title">Nuestra placa robótica se comunica con el mundo</h2></div></header><div id="page-content-20260511162729NCARDI" class="page-content"> <article id="20260511162729ETPFXR" class="box no-header"> <div class="box-head"> <button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button>
+</div>
+<div class="box-content"> <div id="20260511162729RQPCJK" class="idevice_node udl-content" data-idevice-path="idevices/udl-content/" data-idevice-type="udl-content" data-idevice-json-data='{"ideviceId":"20260511162729RQPCJK","textInfoDurationInput":"","textInfoParticipantsInput":"","textInfoDurationTextInput":"","textInfoParticipantsTextInput":"","textTextarea":"&lt;div class=\"exe-udlContent exe-udlContent-representation\"&gt;&lt;section class=\"exe-udlContent-block js-hidden\"&gt;&lt;header class=\"exe-udlContent-header\"&gt;&lt;h2&gt;Diccionario Lectura Facilitada&lt;/h2&gt;&lt;/header&gt;&lt;div class=\"exe-udlContent-content\"&gt;&lt;div class=\"exe-udlContent-content-main\"&gt;&lt;div class=\"exe-fx exe-accordion\"&gt;\n&lt;h2&gt;Autómata&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/robot.png\" alt=\"Imagen que muestra a un robot\" title=\"Autómata\" style=\"float: left; margin-right: 10px; margin-left: 10px;\" width=\"125\" height=\"125\"&gt;&lt;/p&gt;\n&lt;dl style=\"overflow: hidden;\"&gt;\n&lt;dt&gt;&lt;strong&gt;Definición:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Máquina capaz de funcionar sin ayuda humana.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;dt&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;El autómata hizo la tarea sin ayuda humana.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;h2&gt;Circuitos&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/circuito.png\" alt=\"Imagen que muestra un circuito\" title=\"Circuito\" style=\"float: left; margin-right: 10px; margin-left: 10px;\" width=\"125\" height=\"125\"&gt;&lt;/p&gt;\n&lt;dl style=\"overflow: hidden;\"&gt;\n&lt;dt&gt;&lt;strong&gt;Definición:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Plural de circuito. Conjunto de componentes eléctricos que hacen una función.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;dt&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;El circuito hace que la bombilla se encienda con una pila.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;h2&gt;Código abierto&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/Opensource.png\" alt=\"Imagen que muestra el símbolo del open source\" title=\"Open source\" style=\"float: left; margin-right: 10px; margin-left: 10px;\" width=\"125\" height=\"125\"&gt;&lt;/p&gt;\n&lt;dl style=\"overflow: hidden;\"&gt;\n&lt;dt&gt;&lt;strong&gt;Definición:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Es un código que se puede usar y estudiar porque está publicado.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;dt&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;El programa Scratch es de código abierto.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;h2&gt;Entorno de programación&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/EntornoProgramacion-def.png\" alt=\"Imagen que muestra el entorno de programación online de Scratch\" title=\"Entorno de programación\" style=\"float: left; margin-right: 10px; margin-left: 10px;\" width=\"125\" height=\"125\"&gt;&lt;/p&gt;\n&lt;dl style=\"overflow: hidden;\"&gt;\n&lt;dt&gt;&lt;strong&gt;Definición:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Es un programa que permite escribir código y transformarlo en una aplicación informática.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;dt&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Python es un entorno de programación.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;h2&gt;Entrada&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/teclado.png\" alt=\"Imagen que muestra un teclado\" title=\"Entrada\" style=\"float: left; margin-right: 10px; margin-left: 10px;\" width=\"125\" height=\"125\"&gt;&lt;/p&gt;\n&lt;dl style=\"overflow: hidden;\"&gt;\n&lt;dt&gt;&lt;strong&gt;Definición:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Elemento que lleva información a un sistema informático.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;dt&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;El ratón y el teclado son entradas de un ordenador.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;h2&gt;Frankenstein&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/Frankenstein.png\" alt=\"Imagen con un poictograma de Frankenstein\" title=\"Frankenstein\" style=\"float: left; margin-right: 10px; margin-left: 10px;\" width=\"125\" height=\"125\"&gt;&lt;/p&gt;\n&lt;dl style=\"overflow: hidden;\"&gt;\n&lt;dt&gt;&lt;strong&gt;Definición:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Novela en la que crean a un hombre.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;dt&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Frankenstein es una mezcla entre un monstruo y un humano.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;h2&gt;Laboratorio&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/laboratorio.png\" alt=\"Imagen que muestras tubos de ensayo para hacer experimentos en un laboratorio\" title=\"Tubos de ensayo\" style=\"float: left; margin-right: 10px; margin-left: 10px;\" width=\"125\" height=\"125\"&gt;&lt;/p&gt;\n&lt;dl style=\"overflow: hidden;\"&gt;\n&lt;dt&gt;&lt;strong&gt;Definición:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Lugar donde se investiga y hacen experimentos.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;dt&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;En el laboratorio hacen experimentos.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;h2&gt;Programar&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/Programar-def.png\" alt=\"Imagen que muestra un programa\" title=\"Programar\" style=\"float: left; margin-right: 10px; margin-left: 10px;\" width=\"125\" height=\"125\"&gt;&lt;/p&gt;\n&lt;dl style=\"overflow: hidden;\"&gt;\n&lt;dt&gt;&lt;strong&gt;Definición:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Dar instrucciones a una máquina o aparato para que realice funciones.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;dt&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Vamos a programar el robot.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;h2&gt;LED&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/LED.jpg\" alt=\"Imagen con tres LEDes de colores\" title=\"LED\" style=\"float: left; margin-right: 10px; margin-left: 10px;\" width=\"125\" height=\"125\"&gt;&lt;/p&gt;\n&lt;dl style=\"overflow: hidden;\"&gt;\n&lt;dt&gt;&lt;strong&gt;Definición:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Es una fuente de luz de bajo consumo y que dura mucho sin estropearse.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;dt&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;El teléfono móvil lleva una luz LED para iluminar.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;h2&gt;Mary Shelley&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/RothwellMaryShelley.jpg\" alt=\"Imagen con una retrato de Mary Shelley\" title=\"Mary Shelley\" style=\"float: left; margin-right: 10px; margin-left: 10px;\" width=\"125\" height=\"126\"&gt;&lt;/p&gt;\n&lt;dl style=\"overflow: hidden;\"&gt;\n&lt;dt&gt;&lt;strong&gt;Definición:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Mujer que escribio el libro de Frankenstein.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;dt&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Mary Shelley escribió Frankenstein.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;h2&gt;Microcontrolador&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/MicroBit_IDmicro-def.jpg\" alt=\"Imagen que muestra el microcontrolador de la placa microbit\" title=\"Microcontrolador\" style=\"margin-right: 10px; margin-left: 10px; float: left;\" width=\"125\" height=\"125\"&gt;&lt;/p&gt;\n&lt;dl style=\"overflow: hidden;\"&gt;\n&lt;dt&gt;&lt;strong&gt;Definición:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Un microcontrolador es un circuito integrado programable, capaz de ejecutar las órdenes grabadas en su memoria.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;dt&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;La placa Microbit lleva un microcontrolador para controlar sus funciones.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;h2&gt;RAM&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/RAM.png\" alt=\"Imagen que muestras tarjetas con memorias RAM para ordenador\" title=\"RAM\" style=\"float: left; margin-right: 10px; margin-left: 10px;\" width=\"125\" height=\"125\"&gt;&lt;/p&gt;\n&lt;dl style=\"overflow: hidden;\"&gt;\n&lt;dt&gt;&lt;strong&gt;Definición:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Es la memoria principal de un dispositivo.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;dt&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;La memoria RAM almacena la información de los sensores.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;h2&gt;Robótica&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/robotica.jpg\" alt=\"Imagen de un robot\" title=\"Robótica\" style=\"float: left; margin-right: 10px; margin-left: 10px;\" width=\"126\" height=\"112\"&gt;&lt;/p&gt;\n&lt;dl style=\"overflow: hidden;\"&gt;\n&lt;dt&gt;&lt;strong&gt;Definición:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Es la ciencia que se ocupa del diseño y construcción de los robots.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;dt&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;La robótica está evolucionando mucho en los últimos años.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;h2&gt;Salida&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/pantalla_LCD.png\" alt=\"Imagen que muestra la pantalla de un ordenador\" title=\"Salida\" style=\"float: left; margin-right: 10px; margin-left: 10px;\" width=\"125\" height=\"125\"&gt;&lt;/p&gt;\n&lt;dl style=\"overflow: hidden;\"&gt;\n&lt;dt&gt;&lt;strong&gt;Definición:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Elemento que muestra la información en un sistema informático.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;dt&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;La pantalla es un componente de salida en un ordenador.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;h2&gt;Silicio&lt;/h2&gt;\n&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/Silicio.png\" alt=\"Imagen que muestra el Silicio en la tabla periódica\" title=\"Silicio\" style=\"float: left; margin-right: 10px; margin-left: 10px;\" width=\"150\" height=\"150\"&gt;&lt;/p&gt;\n&lt;dl style=\"overflow: hidden;\"&gt;\n&lt;dt&gt;&lt;strong&gt;Definición:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Es un material que sirve para conducir o aislar la corriente eléctrica. Se utiliza en la industria electrónica y microelectrónica, para fabricar componentes.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;dt&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/dt&gt;\n&lt;dd&gt;\n&lt;p&gt;Muchas piezas electrónicas están hechas de silicio.&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;section class=\"exe-udlContent-block\"&gt;&lt;div class=\"exe-udlContent-content\"&gt;&lt;div class=\"exe-udlContent-content-main\"&gt;&lt;p&gt;&lt;img src=\"content/resources/20260511162729RQPCJK/computacion_y_robotica_1o_ESO.1.png\" alt=\"Portada REA Computación y Robótica 1º ESO\" title=\"Portada REA Robótica 1ºESO\" style=\"display: block; margin-left: auto; margin-right: auto;\" width=\"720\" height=\"360\"&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;/div&gt;","textFeedbackInput":"","textFeedbackTextarea":""}'><div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2>Diccionario Lectura Facilitada</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-fx exe-accordion">
+<h2>Autómata</h2>
+<p><img src="content/resources/20260511162729RQPCJK/robot.png" alt="Imagen que muestra a un robot" title="Autómata" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Máquina capaz de funcionar sin ayuda humana.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>El autómata hizo la tarea sin ayuda humana.</p>
+</dd>
+</dl>
+<h2>Circuitos</h2>
+<p><img src="content/resources/20260511162729RQPCJK/circuito.png" alt="Imagen que muestra un circuito" title="Circuito" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Plural de circuito. Conjunto de componentes eléctricos que hacen una función.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>El circuito hace que la bombilla se encienda con una pila.</p>
+</dd>
+</dl>
+<h2>Código abierto</h2>
+<p><img src="content/resources/20260511162729RQPCJK/Opensource.png" alt="Imagen que muestra el símbolo del open source" title="Open source" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Es un código que se puede usar y estudiar porque está publicado.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>El programa Scratch es de código abierto.</p>
+</dd>
+</dl>
+<h2>Entorno de programación</h2>
+<p><img src="content/resources/20260511162729RQPCJK/EntornoProgramacion-def.png" alt="Imagen que muestra el entorno de programación online de Scratch" title="Entorno de programación" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Es un programa que permite escribir código y transformarlo en una aplicación informática.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>Python es un entorno de programación.</p>
+</dd>
+</dl>
+<h2>Entrada</h2>
+<p><img src="content/resources/20260511162729RQPCJK/teclado.png" alt="Imagen que muestra un teclado" title="Entrada" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Elemento que lleva información a un sistema informático.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>El ratón y el teclado son entradas de un ordenador.</p>
+</dd>
+</dl>
+<h2>Frankenstein</h2>
+<p><img src="content/resources/20260511162729RQPCJK/Frankenstein.png" alt="Imagen con un poictograma de Frankenstein" title="Frankenstein" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Novela en la que crean a un hombre.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>Frankenstein es una mezcla entre un monstruo y un humano.</p>
+</dd>
+</dl>
+<h2>Laboratorio</h2>
+<p><img src="content/resources/20260511162729RQPCJK/laboratorio.png" alt="Imagen que muestras tubos de ensayo para hacer experimentos en un laboratorio" title="Tubos de ensayo" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Lugar donde se investiga y hacen experimentos.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>En el laboratorio hacen experimentos.</p>
+</dd>
+</dl>
+<h2>Programar</h2>
+<p><img src="content/resources/20260511162729RQPCJK/Programar-def.png" alt="Imagen que muestra un programa" title="Programar" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Dar instrucciones a una máquina o aparato para que realice funciones.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>Vamos a programar el robot.</p>
+</dd>
+</dl>
+<h2>LED</h2>
+<p><img src="content/resources/20260511162729RQPCJK/LED.jpg" alt="Imagen con tres LEDes de colores" title="LED" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Es una fuente de luz de bajo consumo y que dura mucho sin estropearse.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>El teléfono móvil lleva una luz LED para iluminar.</p>
+</dd>
+</dl>
+<h2>Mary Shelley</h2>
+<p><img src="content/resources/20260511162729RQPCJK/RothwellMaryShelley.jpg" alt="Imagen con una retrato de Mary Shelley" title="Mary Shelley" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="126"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Mujer que escribio el libro de Frankenstein.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>Mary Shelley escribió Frankenstein.</p>
+</dd>
+</dl>
+<h2>Microcontrolador</h2>
+<p><img src="content/resources/20260511162729RQPCJK/MicroBit_IDmicro-def.jpg" alt="Imagen que muestra el microcontrolador de la placa microbit" title="Microcontrolador" style="margin-right: 10px; margin-left: 10px; float: left;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Un microcontrolador es un circuito integrado programable, capaz de ejecutar las órdenes grabadas en su memoria.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>La placa Microbit lleva un microcontrolador para controlar sus funciones.</p>
+</dd>
+</dl>
+<h2>RAM</h2>
+<p><img src="content/resources/20260511162729RQPCJK/RAM.png" alt="Imagen que muestras tarjetas con memorias RAM para ordenador" title="RAM" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Es la memoria principal de un dispositivo.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>La memoria RAM almacena la información de los sensores.</p>
+</dd>
+</dl>
+<h2>Robótica</h2>
+<p><img src="content/resources/20260511162729RQPCJK/robotica.jpg" alt="Imagen de un robot" title="Robótica" style="float: left; margin-right: 10px; margin-left: 10px;" width="126" height="112"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Es la ciencia que se ocupa del diseño y construcción de los robots.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>La robótica está evolucionando mucho en los últimos años.</p>
+</dd>
+</dl>
+<h2>Salida</h2>
+<p><img src="content/resources/20260511162729RQPCJK/pantalla_LCD.png" alt="Imagen que muestra la pantalla de un ordenador" title="Salida" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Elemento que muestra la información en un sistema informático.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>La pantalla es un componente de salida en un ordenador.</p>
+</dd>
+</dl>
+<h2>Silicio</h2>
+<p><img src="content/resources/20260511162729RQPCJK/Silicio.png" alt="Imagen que muestra el Silicio en la tabla periódica" title="Silicio" style="float: left; margin-right: 10px; margin-left: 10px;" width="150" height="150"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Es un material que sirve para conducir o aislar la corriente eléctrica. Se utiliza en la industria electrónica y microelectrónica, para fabricar componentes.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>Muchas piezas electrónicas están hechas de silicio.</p>
+</dd>
+</dl>
+</div></div></div></section><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="content/resources/20260511162729RQPCJK/computacion_y_robotica_1o_ESO.1.png" alt="Portada REA Computación y Robótica 1º ESO" title="Portada REA Robótica 1ºESO" style="display: block; margin-left: auto; margin-right: auto;" width="720" height="360"></p></div></div></section></div></div>
+</div></article>
+</div></main><div class="nav-buttons"> <span class="nav-button nav-button-left" aria-hidden="true"> <span>Anterior</span></span><a href="html/1-que-vamos-a-hacer.html" title="Siguiente" class="nav-button nav-button-right"> <span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-nc-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="license">creative commons: attribution - non commercial - share alike 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(nueva ventana)</span></span></a></p>
+</body>
+</html>
